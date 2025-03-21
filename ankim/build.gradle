@@ -28,3 +28,7 @@ tasks.named('test') {
 }
 
 ext['tomcat.version'] = '11.0.5'
+
+bootJar {
+    archiveFileName = 'ankimMain.jar' // 빌드된 JAR 파일명을 ankimMain.jar로 변경
+}
