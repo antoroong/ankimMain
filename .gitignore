@@ -1,3 +1,6 @@
+*.yml
+
+
 ### Eclipse ###
 .metadata
 bin/
@@ -6,7 +9,7 @@ tmp/
 *.bak
 *.swp
 *~.nib
-local.properties
+*.properties
 .settings/
 .loadpath
 .recommenders
