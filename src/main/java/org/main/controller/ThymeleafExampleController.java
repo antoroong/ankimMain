@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @Controller
-@RequestMapping("/thymelef")
+@RequestMapping("/thymeleaf")
 public class ThymeleafExampleController {
 
     @GetMapping("/example")
